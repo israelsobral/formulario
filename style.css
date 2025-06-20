@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(187, 232, 237);
+}
+
+form {
+    background-color: rgb(61, 241, 181);
+    height: 510px;
+    min-width: 320px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.293);
+}
+
+h1 {
+    color: rgb(4, 65, 4);
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 1px 2px rgba(250, 245, 245, 0.54);
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(215, 247, 215);
+    margin-top: 20px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.456);
+
+}
+
+input#name:hover, input#data:hover, input#email:hover, input#senha:hover {
+    background-color: white;    
+}
+
+input#email {
+    margin-bottom: 20px;
+}
+
+input#senha {
+    margin-top: 30px;
+}
+
+input#cadastro {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+input#cadastro:hover {
+    background-color: rgb(139, 217, 139);
+    color: rgb(16, 103, 16);
+    cursor: pointer;
+}
+
+select#genero {
+    background-color: rgb(215, 247, 215);
+    margin-top: 20px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.456);
+}
+
+select#genero:hover {
+     background-color: white;      
+}
